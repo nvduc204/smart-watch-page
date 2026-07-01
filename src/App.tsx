@@ -1,13 +1,8 @@
-import './App.css'
+import "./App.css";
+import { LandingPage } from "./pages/LandingPage";
 
 function App() {
-  return (
-    <div className="bg-red-500 h-screen flex items-center justify-center">
-      <h1 className="text-5xl text-white">
-        Hello Tailwind 4
-      </h1>
-    </div>
-  );
+  return <LandingPage />;
 }
 
-export default App
+export default App;
