@@ -39,7 +39,7 @@ export function Navbar({
             <a
               key={item.href}
               href={item.href}
-              className="focus-ring rounded-full text-sm font-semibold text-slate-600 transition hover:text-slate-950 dark:text-slate-300 dark:hover:text-white"
+              className="focus-ring rounded-full text-sm font-semibold text-slate-600 transition hover:text-slate-950 dark:text-slate-600 dark:hover:text-slate-950"
             >
               {item.label}
             </a>
