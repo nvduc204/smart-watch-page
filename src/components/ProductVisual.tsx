@@ -2,6 +2,8 @@ import { motion } from "framer-motion";
 type ProductVisualProps = {
   compact?: boolean;
 };
+
+//hiển thị hình ảnh sản phẩm (đồng hồ) với các chỉ số sức khỏe và hiệu suất
 export function ProductVisual({ compact = false }: ProductVisualProps) {
   const metrics = ["Heart 68 bpm", "Sleep 7h 42m", "Stress Low"];
   return (
