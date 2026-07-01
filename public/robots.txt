@@ -1,0 +1,5 @@
+
+User-agent: *
+Allow: /
+
+Sitemap: https://ai-smart-watch-x-pro.local/sitemap.xml
