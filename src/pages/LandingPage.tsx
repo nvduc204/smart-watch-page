@@ -16,6 +16,10 @@ export function LandingPage() {
     storageKeys.favorite,
     false,
   );
+  useEffect(() => {
+    document.documentElement.classList.toggle("dark", isDark);
+  }, [isDark]);
+
   const preorder = () => {
     if (cart.length === 0) {
       setCart([product.id]);
