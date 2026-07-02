@@ -8,7 +8,7 @@ type HeroProps = {
   onToggleFavorite: () => void;
   onAddToCart: () => void;
 };
-//hiển thị sản phẩm chính trên trang chủ với các nút hành động như đặt hàng trước, thêm vào giỏ hàng và yêu thích
+
 export function Hero({
   isFavorite,
   onPreorder,
@@ -18,7 +18,7 @@ export function Hero({
   return (
     <section
       id="home"
-      className="relative min-h-screen overflow-hidden bg-mesh-light pb-20 pt-32 dark:bg-mesh-dark"
+      className="relative min-h-screen overflow-hidden bg-light pb-20 pt-32 dark:bg-slate-950"
     >
       <div className="section-shell grid min-h-[calc(100vh-8rem)] items-center gap-12 lg:grid-cols-[1.08fr_0.92fr]">
         <motion.div
