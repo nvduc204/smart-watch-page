@@ -32,9 +32,9 @@ export function ProductVisual({ compact = false }: ProductVisualProps) {
               <span>09:41</span>
               <span>AI</span>
             </div>
-            <div className="absolute inset-x-0 top-[10%] grid place-items-center">
+            <div className="absolute inset-x-0 top-[15%] grid place-items-center">
               <div
-                className={`relative h-25 grid aspect-square place-items-center rounded-full bg-gradient-to-br from-sky-400 via-cyan-300 to-violet-400 shadow-glow ${compact ? "w-[42%] p-0.5" : "w-[48%] p-1"}`}
+                className={`relative h-22 grid aspect-square place-items-center rounded-full bg-gradient-to-br from-sky-400 via-cyan-300 to-violet-400 shadow-glow ${compact ? "w-[42%] p-0.5" : "w-[48%] p-1"}`}
               >
                 <div className="grid h-20 w-full place-items-center rounded-full bg-slate-950">
                   <span
@@ -51,7 +51,7 @@ export function ProductVisual({ compact = false }: ProductVisualProps) {
               </div>
             </div>
             <div
-              className={`absolute inset-x-[16%] bottom-[13%] ${compact ? "space-y-1" : "space-y-1.5"}`}
+              className={`absolute inset-x-[18%] bottom-[10%] ${compact ? "space-y-1" : "space-y-1.5"}`}
             >
               {metrics.map((item) => (
                 <div
