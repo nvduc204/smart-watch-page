@@ -18,7 +18,7 @@ export function Hero({
   return (
     <section
       id="home"
-      className="relative min-h-screen overflow-hidden bg-light pb-20 pt-32 dark:bg-slate-950"
+      className="relative min-h-screen overflow-hidden bg-mesh-light pb-20 pt-32 dark:bg-mesh-dark"
     >
       <div className="section-shell grid min-h-[calc(100vh-8rem)] items-center gap-12 lg:grid-cols-[1.08fr_0.92fr]">
         <motion.div
